@@ -1,15 +1,13 @@
-import express from 'express'
+import app from "./app.js"
 import 'dotenv/config'
 
 
 
-const app = express()
 const PORT = process.env.PORT
 
 
-app.get('/', (req, res) => {
-  res.send('server')
-})
+// TODO: Starting Server setUP
+// TODO: Starting Server setUP
 
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`)
